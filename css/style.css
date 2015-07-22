@@ -1,0 +1,50 @@
+/*======== base ========*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400);
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+	color: #222;
+	display: flex;
+	flex-direction: row;
+}
+
+::selection {
+	text-shadow: none;
+	background: #fed136;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.section {
+	padding: 60px 0;
+}
+
+.title-section {
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	color: #222;
+}
+
+.hr-style {
+	margin: 15px auto;
+	max-width: 64px;
+	border-color: #1ea0f8;
+	border-width: 2px;
+}
+
+.btn {
+	padding: 15px 30px;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-size: 22px;
+	text-decoration: none;
+	font-weight: bolder;
+}

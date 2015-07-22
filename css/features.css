@@ -1,0 +1,108 @@
+/*======== section-features ========*/
+
+.section-features {
+	background-color: white;
+	height: auto;
+	padding: 60px 0;
+}
+
+.text-question {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 8px;
+}
+
+.text-center {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 14px;
+	
+}
+
+.image-plataforms {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.description-container {
+	width: 100%;
+	margin-top: 40px;
+
+	/* flex */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	aling-items: center;
+	justify-content: space-between;
+}
+
+.description-item {
+	text-align: center;
+	height: 380px;
+}
+
+.text-features {
+	width: 80%;
+	text-align: center;
+	font-size: 20px;
+	margin: 200px auto 0;
+	opacity: 0;
+	-webkit-transition: opacity .4s, margin-top .4s;
+	-ms-transition: opacity .4s, margin-top .4s;
+	-moz-transition: opacity .4s, margin-top .4s;
+	-o-transition: opacity .4s, margin-top .4s;
+	transition: opacity .4s, margin-top .4s;
+}
+
+.description-item-left {
+	background-color: #fff;
+	width: 40%;
+	margin-left: 8%;
+	opacity: 0;
+	-webkit-transition: opacity .4s, margin-top .4s;
+	-ms-transition: opacity .4s, margin-top .4s;
+	-moz-transition: opacity .4s, margin-top .4s;
+	-o-transition: opacity .4s, margin-top .4s;
+	transition: opacity .4s, margin-top .4s;
+}
+
+.description-item-right {
+	background-color: #fff;
+	width: 40%;
+	margin-right: 8%;
+	opacity: 0;
+	-webkit-transition: opacity .4s, margin-top .4s;
+	-ms-transition: opacity .4s, margin-top .4s;
+	-moz-transition: opacity .4s, margin-top .4s;
+	-o-transition: opacity .4s, margin-top .4s;
+	transition: opacity .4s, margin-top .4s;
+}
+
+.description-item-image {
+	width: 300px;
+	margin: 0 auto;
+	opacity: 0;
+	-webkit-transition: opacity .4s, margin-top .4s;
+	-ms-transition: opacity .4s, margin-top .4s;
+	-moz-transition: opacity .4s, margin-top .4s;
+	-o-transition: opacity .4s, margin-top .4s;
+	transition: opacity .4s, margin-top .4s;
+}
+
+.image-accessibility {
+	width: 350px;
+	margin: 11% auto 0;
+}
+
+.image-comunication {
+	width: 250px;
+	margin: 11% auto 0;
+}
+
+.image-calendar {
+	width: 250px;
+	margin: 11% auto 0;	
+}

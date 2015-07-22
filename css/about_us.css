@@ -1,0 +1,71 @@
+/*======== section about us ========*/
+
+.section-team {
+	background-color: #eee;
+	height: auto;
+	padding-bottom: 60px;
+}
+
+.team-container {
+	width: 80%;
+	margin: 90px auto 0;
+}
+
+.team-member {
+	display: inline-block;
+	width: 33.2%;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 70px;
+}
+
+.team-member a {
+	text-decoration: none;
+	color: #222;
+}
+
+.img-circle {
+	width: 200px;
+	border: 1px solid #ddd;
+	border-radius: 100%;
+}
+
+.team-member h3 {
+	font-size: 22px;
+	margin-bottom: 4px;
+}
+
+.team-member p {
+	font-size: 16px;
+	margin-top: 4px;
+	color: #777;
+}
+
+.list-social-buttons {
+	width: 80%;
+	padding-left: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.list-social-buttons li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.list-social-buttons li a {
+	display: block;
+	background-color: #222;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	color: #fff;
+	outline: 0;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}

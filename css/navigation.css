@@ -1,0 +1,115 @@
+/*======== section navigation ========*/
+
+.header {
+	z-index: 3;
+	width: 100%;
+	background-color: transparent;
+	/* background-color: rgba(0,0,0,0.7); */
+	height: 70px;
+	padding-top: 20px;
+	color: #222;
+	text-transform: uppercase;
+	position: fixed;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	
+	/* flex */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	justify-content: space-between;
+}
+
+.header-fixed { /* styles for show navbar scroll */
+	background-color: #fff;
+	padding: 10px 0;
+	color: white;
+	height: 78px;
+	box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.12);
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.header-fixed > .divLogo > .logo {
+	width: 50px;
+	margin-top: 0;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.header-fixed > .main-nav > .ulNav {
+	margin-top: 17px;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.divLogo {
+	margin-left: 8%;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 2px;
+	-webkit-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.main-nav {
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 8%;
+}
+
+.ulNav {
+	padding: 0;
+	margin-top: 38px;
+	margin-bottom: 0;
+	-webkit-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.listNav {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.listNav-edit {
+	align-items: center;
+}
+
+.linkNav {
+	text-decoration: none;
+	margin: 0 14px;
+	color: #222;
+	font-weight: bolder;
+}
+
+.linkNav:hover {
+	color: #1ea0f8;
+	webkit-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
